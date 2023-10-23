@@ -93,17 +93,13 @@ void insertion_sort_deck_kind(deck_node_t **deck)
 	{
 	insertn->next = itert->next;
 	if (itert->next != NULL)
-	{
-	itert->next->prev = insertn;
-	}
+		itert->next->prev = insertn;
 	itert->prev = insertn->prev;
 	itert->next = insertn;
 	if (insertn->prev != NULL)
 		insertn->prev->next = itert;
 	else
-	{
-	*deck = itert;
-	}
+		*deck = itert;
 	insertn->prev = itert;
 	insertn = itert->prev;
 	}}
@@ -133,13 +129,9 @@ void insertion_sort_deck_value(deck_node_t **deck)
 	itert->prev = insertn->prev;
 	itert->next = insertn;
 	if (insertn->prev != NULL)
-	{
-	insertn->prev->next = itert;
-	}
+		insertn->prev->next = itert;
 	else
-	{
-	*deck = itert;
-	}
+		*deck = itert;
 	insertn->prev = itert;
 	insertn = itert->prev;
 	}}
