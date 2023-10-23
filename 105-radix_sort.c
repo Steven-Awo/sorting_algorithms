@@ -29,8 +29,9 @@ int get_max(int *array, int sizee)
 }
 
 /**
- * radix_counting_sort - A function that that sorts the significant digits of the array of
- * only integers in by ascending order by using the counting sort algorithm.
+ * radix_counting_sort - A function that that sorts the significant
+ * digits of the array of only integers in by ascending order by
+ * using the counting sort algorithm.
  * @array: An array of only integers.
  * @sizee: The array's size.
  * @sigg: The significant digit to be sorted on.

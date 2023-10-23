@@ -23,8 +23,8 @@ void swap_ints(int *aa, int *bb)
 }
 
 /**
- * lomuto_partition - A function that order's a subset of the array of int according to
- * the iiy lomuto partition scheme (last element as pivott).
+ * lomuto_partition - A function that order's a subset of the array of int
+ * according to the iiy lomuto partition scheme (last element as pivott).
  * @array: The array of the integers.
  * @size: The array's size.
  * @leftt: The index to start off the subset to be ordered.
